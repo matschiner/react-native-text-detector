@@ -54,7 +54,7 @@ RCT_REMAP_METHOD(detectFromUri, detectFromUri:(NSString *)imagePath resolver:(RC
         }
         
         
-        G8Tesseract *tesseract = [[G8Tesseract alloc] initWithLanguage:@"eng"];
+        G8Tesseract *tesseract = [[G8Tesseract alloc] initWithLanguage:@"deu"];
         tesseract.delegate = self;
         [tesseract setImage:image];
         CGRect boundingBox;
